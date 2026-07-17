@@ -42,17 +42,19 @@ if (true) {
 
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
+//there are type method of declering function both react different when we execute the function befour declering the function
 
+// console.log(addone(5))                    
 
-console.log(addone(5))
-
-function addone(num){
+function addone(num){                 // output 6
     return num + 1
 }
 
 
 
-addTwo(5)
-const addTwo = function(num){
-    return num + 2
-}
+//in this type we decler founction and also storeing it into the variable thats why we can not execute the function befour declering
+
+// addTwo(5)
+// const addTwo = function(num){             
+//     return num + 2
+// }
