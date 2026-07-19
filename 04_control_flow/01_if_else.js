@@ -49,4 +49,4 @@ const temperature = 41
 
             if (loggedInFromGoogle || loggedInFromEmail) {
                 console.log("User logged in");
-                }
+            }
