@@ -82,3 +82,4 @@ const stringOne = gameName.anchor("hello"); // use of anchor in string
 let story = "once upon a time";
 
 // console.log(`the 5th character is ${story.charAt(5)} is equal to ${story.charCodeAt(5)}`);
+
