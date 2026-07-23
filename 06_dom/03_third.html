@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom learn p3</title>
+</head>
+<body style="background-color: black; color: mediumaquamarine;">
+    
+</body>
+<script>
+    const div = document.createElement('div') // .createElement, this is how we create element in js
+    console.log(div);
+    div.className = 'main'
+    div.id = Math.round(Math.random() * 10 + 1)
+
+    div.setAttribute("title", "the pawn shop")         //.setAttribute, this is how we set attribute
+
+    div.style.backgroundColor = "pink"
+    div.style.padding = "12px"
+    // div.innerHTML = "hii we "
+       
+    const addText = document.createTextNode('chai ya coffie')
+    div.appendChild(addText)
+
+
+    // the div is in memory by the time not in page, to attach div into page
+    document.body.appendChild(div)
+
+</script>
+</html>
