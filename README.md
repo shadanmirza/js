@@ -1,2 +1,2 @@
-# js
+# JavaScript Notes
 to remember things
