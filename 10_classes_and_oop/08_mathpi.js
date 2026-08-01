@@ -4,6 +4,7 @@ const descripter = Object.getOwnPropertyDescriptor(Math, "PI")
 
 // console.log(Math.PI);
 // Math.PI = 5
+// hiih
 // console.log(Math.PI);
 
 const chai = {
